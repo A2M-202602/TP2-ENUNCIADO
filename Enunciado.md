@@ -6,8 +6,8 @@
 
 Para este TP se piden 3 cosas:
 
-- **Cambiar la implementación del TP1**: Se pide que busquen en el TP1 cosas que se puedan mejorar y reimplementar utilizando los conocimientos adquiridos durante la materia. Esto incluye implementacion de funciones y estructuras. En lo posible deberían mantener las mismas pruebas que hicieron para el TP1. Se pueden agregar mas. En caso de necesitar cambiar alguna prueba del TP1 explique por qué.
-- **Implementar un TDA Menú**: Este TDA debe permitirnos interactuar con nuestro programa. Debe ser lo suficientemente genérico para pader ser utilizado tanto por la consola como por la interfaz gráfica.
+- **Cambiar la implementación del TP1**: Se pide que busquen en el TP1 cosas que se puedan mejorar y reimplementar utilizando los conocimientos adquiridos durante la materia. Esto incluye implementacion de funciones y estructuras. En lo posible deberían mantener las mismas pruebas que hicieron para el TP1. Se pueden agregar mas. En caso de necesitar cambiar alguna prueba del TP1 explique por qué. Tener en cuenta si utilizaron un vector para almacenar los pokemon, es obligatorio cambiar esta estructura por otro tipo de entidad.
+- **Implementar un TDA Menú**: Este TDA debe permitirnos interactuar con nuestro programa. Debe ser lo suficientemente genérico para poder ser utilizado tanto por la consola como por la interfaz gráfica.
 - **Implementar la lógica del juego pedido**
 
 ## Lógica del juego
@@ -21,7 +21,7 @@ El juego pedido consiste en cargar una lista de pokemon de un archivo utilizando
 
 ### Los pokemon
 
-Los pokemon viajan por la pantalla en diferentes direcciones y velocidades. Cada pokemon debe tener una forma de ser identificado del resto (diferente forma). Adicionalmente cada pokemon debe poder ser distinguido por rareza (por color).
+Los pokemon viajan por la pantalla en diferentes direcciones y velocidades. La trayectoria de cada pokemon no tiene por qué ser lineal (se recomienda que no lo sea). Cada pokemon debe tener una forma de ser identificado del resto (diferente forma). Adicionalmente cada pokemon debe poder ser distinguido por rareza (por color).
 
 **Nota**: La velocidad a la cual se mueve un pokemon no tiene que ser exactamente la que indica el pokedex, pudiendo variar para hacer el juego mas interesante.
 
@@ -59,6 +59,6 @@ Ya sea en modo consola o gráfico, el juego debe mostrar un menú con las siguie
 
 ## Puntos teóricos
 
- - Explicar los cambios realizados al TP1. Justifique.
+ - Explicar los cambios realizados al TP1. Justifique cada cambio aplicado.
  - Explique cómo funciona el menú y cómo abstrae el problema de la independencia de la interfaz gráfica.
  - En general, explique qué estructuras de las implementadas fueron utilizadas para implementar la lógica del TP2 y por qué.
