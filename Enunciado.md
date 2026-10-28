@@ -6,7 +6,7 @@
 
 Para este TP se piden 3 cosas:
 
-- **Cambiar la implementación del TP1**: Se pide que busquen en el TP1 cosas que se puedan mejorar y reimplementar utilizando los conocimientos adquiridos durante la materia. Esto incluye implementacion de funciones y estructuras. En lo posible deberían mantener las mismas pruebas que hicieron para el TP1. Se pueden agregar mas. En caso de necesitar cambiar alguna prueba del TP1 explique por qué. Tener en cuenta si utilizaron un vector para almacenar los pokemon, es obligatorio cambiar esta estructura por otro tipo de entidad.
+- **Cambiar la implementación del TP1**: Se pide que busquen en el TP1 cosas que se puedan mejorar y reimplementar utilizando los conocimientos adquiridos durante la materia. Esto incluye implementacion de funciones y estructuras. En lo posible deberían mantener las mismas pruebas que hicieron para el TP1. Se pueden agregar mas. En caso de necesitar cambiar alguna prueba del TP1 explique por qué. Tener en cuenta si utilizaron un vector para almacenar los pokemon, es obligatorio cambiar esta estructura por otro tipo de entidad. Trabajos que entreguen vector como entidad de almacenamiento del TP1 seran automaticamente desaprobados.
 - **Implementar un TDA Menú**: Este TDA debe permitirnos interactuar con nuestro programa. Debe ser lo suficientemente genérico para poder ser utilizado tanto por la consola como por la interfaz gráfica.
 - **Implementar la lógica del juego pedido**
 
